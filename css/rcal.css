@@ -8,7 +8,7 @@ font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
 
 /*.colhold {display: flex; width: fit-content; }*/
 
-.chlarge {color: orange;background-color: royalblue; border: 2px solid black;padding: 10px;
+.chlarge {color: orange;background-color: royalblue; border: 2px solid black;padding: 10px;font-size:1.4em; font-weight:bold;
       margin:10px;   }
 
 .fc{display: flex; flex-direction: column;}
