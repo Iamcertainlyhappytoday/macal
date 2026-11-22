@@ -5,24 +5,18 @@ main{display: flex;justify-content: center;}
 font-size: 1.5em; border:2px whitesmoke;padding: 0 3px;}
 .hangnav {width:100%;  display: flex;  flex-direction:row; flex-wrap:wrap ;justify-content: center; }
 .hangnav li{display:flex; }
-
 /*.colhold {display: flex; width: fit-content; }*/
-
 .chlarge {color: orange;background-color: royalblue; border: 2px solid black;padding: 10px;font-size:1.4em; font-weight:bold;
       margin:10px;   }
-
 .fc{display: flex; flex-direction: column;}
-
-.yellow{font-size:large; color:springgreen;background-color: blue; border-radius: 10px;}
-.red{ background-color:blanchedalmond;font-size:1.3em; color:orangered; border-radius:10px;padding-left: 3px;  padding-top: 1px;   }
+.red{ background-color:blanchedalmond;font-size:1.2em; color:orangered; border-radius:10px;padding: 1px 3px;margin:2px;   }
 .dropoint, .dropointa, .dropointb{  height: fit-content;        color: #FFF;        background-color: royalblue;          
-      padding-top: 1px; margin:2px;            border: 2px solid #5D6063;    
-border-radius: 10px; margin:1px ;            font-size: 1.3em;}
+      margin:2px;  border: 2px solid #5D6063; border-radius: 10px; margin:1px ;            font-size: 1.2em;}
 
 .button, .buttona, .buttonb , .buttonc, .buttond, .buttone, .buttonf, .buttong{height: fit-content;        color: #FFF;        background-color: royalblue;          
      padding-left: 3px;  padding-top: 1px;             border: 2px solid #5D6063;    
-     border-radius: 10px; margin:2px ;            }
-.button:hover { font-size:1.2em; }
+     border-radius: 10px; margin:2px ; font-size:1.1em;           }
+.button .buttona, .buttonb , .buttonc, .buttond, .buttone, .buttonf, .buttong:hover { font-size:1.2em; }
 #pp{position: fixed; left:40%; top:50%; background-color: aliceblue;}
 
 /*.buttonabout:hover { opacity: 0.8;}*/
@@ -107,13 +101,12 @@ div[data-pos='0'] { transform: translate(10px, 10px); }
 
   @media(width<820px) { 
 		#photoset {  width: 100%;}
-		.red{ background-color:blanchedalmond;font-size:1.6em; color:orangered; border-radius:10px;}
-		.button {height: fit-content;        color: #FFF;        background-color: royalblue;          
-		padding-left: 5px;  padding-top: 1px;             border: 2px solid #5D6063;    
-		border-radius: 10px; margin:2px ;            font-size: 1.6em; }
-		.button:hover { font-size:1.8em; }
-		.chlarge{display:flex; margin:auto; justify-content:center;width:100%;background-color:aliceblue;}
-		.chlarge:last-child{display:none;}
+		.red{ background-color:blanchedalmond;font-size:1.3em; color:orangered; border-radius:10px;}
+		.button .buttona, .buttonb , .buttonc, .buttond, .buttone, .buttonf, .buttong{  color: #FFF;        background-color: royalblue;          
+		padding-left: 3px;  padding-top: 1px;             border: 2px solid #5D6063;    
+		border-radius: 10px; margin:2px ;            font-size: 1.3em; }
+		.button:hover { font-size:1.3em; }
+		.chlarge{display:flex; margin:auto; justify-content:center;width:100%;background-color:aliceblue;}		
 		.gallery {width: 420px; height: 680px;  margin: auto;}
     & div[data-pos='0'] { width: inherit; height: inherit; z-index: 10; }
   
